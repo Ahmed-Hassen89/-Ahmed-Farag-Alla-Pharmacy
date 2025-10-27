@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>صيدلية د/ أحمد حسن فرج الله — تواصل معنا</title>
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./pharmacy.css" />
+  </head>
+  <body>
+    <div class="page-wrap">
+      <!-- ===== Header ===== -->
+      <header class="hero" role="banner">
+        <div class="hero-inner container">
+          <div class="brand">
+            <svg
+              class="logo"
+              width="64"
+              height="64"
+              viewBox="0 0 64 64"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <defs>
+                <linearGradient id="g" x1="0" x2="1">
+                  <stop offset="0" stop-color="#9be7c4" />
+                  <stop offset="1" stop-color="#6cc6d9" />
+                </linearGradient>
+              </defs>
+              <circle cx="32" cy="32" r="30" fill="url(#g)" />
+              <rect x="28" y="14" width="8" height="36" rx="2" fill="#ffffff" />
+              <rect x="14" y="28" width="36" height="8" rx="2" fill="#ffffff" />
+            </svg>
+
+            <div class="brand-text">
+              <h1>صيدلية د/ أحمد حسن فرج الله</h1>
+              <p class="tag">رعايتكم أولويتنا • خدمة سريعة • نصيحة موثوقة</p>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <button
+              class="primary-cta"
+              id="open-hours"
+              aria-expanded="false"
+              aria-controls="hours-panel"
+            >
+              <i class="fa-regular fa-clock"></i>
+              مواعيد العمل
+            </button>
+          </div>
+        </div>
+
+        <div class="hours-panel container" id="hours-panel" hidden>
+          <p><strong>كل الأيام:</strong> ٨:٠٠ ص — ٢:٠٠ ص</p>
+        </div>
+      </header>
+
+      <!-- ===== Logo Image ===== -->
+      <section class="logo-photo">
+        <img
+          src="./logo.jpg"
+          alt="شعار صيدلية د/ أحمد حسن فرج الله"
+          class="pharmacy-logo"
+        />
+      </section>
+
+      <!-- ===== Main Section ===== -->
+      <main class="container" role="main">
+        <section class="intro">
+          <h2>اختر وسيلتك المفضلة للتواصل:</h2>
+          <br />
+        </section>
+
+        <section class="contacts" aria-label="طرق التواصل">
+          <!-- Phone -->
+          <a class="contact-card" href="tel:0503951978">
+            <div class="icon-wrap">
+              <i class="fa-solid fa-phone" style="font-size: 40px"></i>
+            </div>
+            <div class="card-body">
+              <h3>اتصل بنا</h3>
+              <p class="muted">0503951978</p>
+            </div>
+            <button class="copy small" data-copy="00201015719632">
+              <i class="fa-regular fa-copy"></i>
+            </button>
+          </a>
+
+          <!-- WhatsApp  -->
+          <a
+            class="contact-card"
+            href="https://wa.me/201016613666"
+            target="_blank"
+            rel="noopener"
+          >
+            <div class="icon-wrap whatsapp">
+              <i class="fa-brands fa-whatsapp" style="font-size: 50px"></i>
+            </div>
+            <div class="card-body">
+              <h3>واتساب</h3>
+              <p class="muted">اضغط للتواصل معنا علي واتساب</p>
+            </div>
+          </a>
+
+          <!-- Facebook -->
+          <a
+            class="contact-card"
+            href="https://www.facebook.com/share/1BbaSbJKQr/"
+            target="_blank"
+            rel="noopener"
+          >
+            <div class="icon-wrap fb">
+              <i class="fa-brands fa-facebook-f" style="font-size: 50px"></i>
+            </div>
+            <div class="card-body">
+              <h3>فيسبوك</h3>
+              <p class="muted">صفحتنا على فيسبوك</p>
+            </div>
+          </a>
+
+          <!-- Instagram -->
+          <a
+            class="contact-card"
+            href="https://www.instagram.com/dr_ahmedfaraj?igsh=MXVpamtqdnExamV2Nw=="
+            target="_blank"
+            rel="noopener"
+          >
+            <div class="icon-wrap insta">
+              <i class="fa-brands fa-instagram" style="font-size: 50px"></i>
+            </div>
+            <div class="card-body">
+              <h3>إنستجرام</h3>
+              <p class="muted">@dr_ahmedfaraj</p>
+            </div>
+          </a>
+
+          <!-- TikTok -->
+          <a
+            class="contact-card"
+            href="https://tiktok.com/@user5832384986578"
+            target="_blank"
+            rel="noopener"
+          >
+            <div class="icon-wrap tiktok">
+              <i class="fa-brands fa-tiktok" style="font-size: 50px"></i>
+            </div>
+            <div class="card-body">
+              <h3>تيك توك</h3>
+              <p class="muted">@user5832384986578</p>
+            </div>
+          </a>
+        </section>
+      </main>
+
+      <!-- ===== Google Map Section ===== -->
+      <section class="map-section container">
+        <h2>موقعنا على الخريطة</h2>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.367889!2d31.2357!3d30.0444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDAyJzQwLjAiTiAzMcKwMTQnMDguNSJF!5e0!3m2!1sar!2seg!4v1670000000000!5m2!1sar!2seg"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+      </section>
+
+      <!-- ===== Footer ===== -->
+      <footer class="site-footer" role="contentinfo">
+        <div class="container footer-inner">
+          <p>
+            © <span id="year"></span> صيدلية د/ أحمد حسن فرج الله — "رعاية طبية
+            موثوقة"
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      (function () {
+        document.getElementById("year").textContent = new Date().getFullYear();
+
+        const hoursBtn = document.getElementById("open-hours");
+        const hoursPanel = document.getElementById("hours-panel");
+        hoursBtn.addEventListener("click", () => {
+          const expanded = hoursBtn.getAttribute("aria-expanded") === "true";
+          hoursBtn.setAttribute("aria-expanded", String(!expanded));
+          hoursPanel.toggleAttribute("hidden");
+        });
+
+        const copyButtons = document.querySelectorAll(".copy[data-copy]");
+        copyButtons.forEach((btn) => {
+          btn.addEventListener("click", async (e) => {
+            e.preventDefault();
+            const text = btn.getAttribute("data-copy");
+            await navigator.clipboard.writeText(text);
+            const orig = btn.innerHTML;
+            btn.innerHTML = '<i class="fa-solid fa-check"></i>';
+            setTimeout(() => (btn.innerHTML = orig), 1500);
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>
